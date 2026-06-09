@@ -1,0 +1,62 @@
+🛡️ Spamora AI – Spam, Scam & Phishing Detection System
+
+Spamora AI is a Machine Learning-powered web application designed to detect and classify spam or normal messages, emails in real time. The system analyzes SMS messages, emails, and text-based content to help users identify potentially harmful communications before interacting with them.
+
+The project combines Natural Language Processing (NLP), TF-IDF feature extraction, and a Linear Support Vector Machine (Linear SVM) classifier to accurately distinguish between legitimate and suspicious messages. A modern and responsive Streamlit interface enables users to paste messages and receive instant predictions.
+
+🚀 Key Features
+Real-time Spam Detection
+Real-time Phishing Detection
+SMS Message Analysis
+Email Content Analysis
+Natural Language Processing (NLP) Pipeline
+TF-IDF Text Vectorization
+Linear SVM Classification Model
+Interactive Streamlit Web Application
+Mobile & Desktop Responsive Interface
+Fast Prediction Response
+Pickle-Based Model Persistence
+
+
+🛠️ Technologies Used
+Frontend:
+Streamlit
+Backend:
+Python
+Machine Learning:
+Linear Support Vector Machine (Linear SVM)
+Natural Language Processing
+NLTK
+Porter Stemmer
+Stopword Removal
+Text Cleaning
+Feature Engineering
+TF-IDF Vectorization
+Data Processing
+Pandas
+NumPy
+Model Storage
+Pickle (.pkl)
+
+🔍 Machine Learning Workflow
+Data Collection
+Data Cleaning & Preprocessing
+Text Normalization
+Stopword Removal
+Word Stemming
+TF-IDF Feature Extraction
+Train-Test Split
+Linear SVM Model Training
+Model Evaluation
+Model Serialization
+Streamlit Deployment
+
+📁 Saved Model Files
+spamora_model.pkl
+vectorizer.pkl
+label_encoder.pkl
+
+
+🎯 Project Objective
+The primary objective of Spamora AI is to provide a fast, lightweight, and reliable solution for identifying spam or normal messages using Machine Learning and Natural Language Processing techniques.
+
